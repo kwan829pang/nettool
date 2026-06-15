@@ -1,6 +1,9 @@
 # Miscellaneous
 *.class
-*.lock
+# Keep pubspec.lock pinned; ignore other lock files
+Gemfile.lock
+package-lock.json
+yarn.lock
 *.log
 *.pyc
 *.swp

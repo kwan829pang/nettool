@@ -1,0 +1,44 @@
+name: net_tool
+description: NetTool — network scan, port scan, and speed test utilities
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  connectivity_plus: ^5.0.2
+  network_info_plus: ^6.0.2
+  shared_preferences: ^2.3.3
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+  image: ^4.5.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: assets/icon/app_icon.png
+  adaptive_icon_background: "#0078D4"
+  adaptive_icon_foreground: assets/icon/app_icon_foreground.png
+  macos:
+    generate: true
+    image_path: assets/icon/app_icon.png
+  windows:
+    generate: true
+    image_path: assets/icon/app_icon.png
+    icon_size: 256
+  web:
+    generate: true
+    image_path: assets/icon/app_icon.png
+    background_color: "#0078D4"
+    theme_color: "#0078D4"
+
+flutter:
+  uses-material-design: true

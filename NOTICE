@@ -1,0 +1,13 @@
+NetTool
+Copyright 2026 kwan829pang
+
+This product includes software developed by third parties:
+
+- Flutter (BSD-3-Clause) — https://flutter.dev
+- connectivity_plus — https://pub.dev/packages/connectivity_plus
+- network_info_plus — https://pub.dev/packages/network_info_plus
+- shared_preferences — https://pub.dev/packages/shared_preferences
+- url_launcher — https://pub.dev/packages/url_launcher
+
+Internet speed tests may contact Cloudflare public endpoints.
+Public IP lookup (when enabled) may contact api.ipify.org or icanhazip.com.
